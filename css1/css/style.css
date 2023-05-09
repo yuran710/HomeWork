@@ -1,0 +1,11 @@
+.text {
+  font-weight: bold;
+}
+
+.parent>.child {
+  color: red;
+}
+a[href^="#"] {
+  color: red;
+}
+
