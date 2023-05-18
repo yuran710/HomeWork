@@ -1,0 +1,19 @@
+.BLOCK, .INLINE {
+  font-style: 2rem;
+  ;
+}
+
+.line {
+  background-color: #333;
+  height: 5px;
+  margin: 50px;
+}
+
+.content-1__block {
+
+  background-color: #e6cdd69d;
+  padding: 25px 25px 0px;
+  width: 350px;  
+  height: 100px; 
+  overflow: auto;
+}
