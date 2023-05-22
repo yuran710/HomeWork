@@ -1,0 +1,50 @@
+.wrapper {
+  padding: 100px 15px;
+  height: 100vh;
+}
+
+.conteiner {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 100%;
+  border: 10px solid #999;
+  display: flex;
+  
+}
+
+.block {
+  height: 300px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.842);
+}
+
+.red {
+  background-color: rgb(235, 118, 118);
+}
+
+.blue {
+  background-color: rgb(80, 80, 233);
+  top: 100px;
+  right: 50px;
+  left: 50%;
+  bottom: 100px;
+  position: fixed;
+}
+
+.orange {
+  background-color: rgb(223, 157, 35);
+}
+
+.green {
+  background-color: rgb(115, 197, 115);
+}
+
+.purple {
+  background-color: rgb(207, 130, 207);
+}
+
+
+
+
