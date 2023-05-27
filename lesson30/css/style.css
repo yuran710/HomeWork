@@ -1,0 +1,8 @@
+.conteiner {
+  max-width: 1000px;
+  margin: 100px;
+}
+
+.list__item:first-child:hover {
+  color: rgb(247, 10, 10);
+}
