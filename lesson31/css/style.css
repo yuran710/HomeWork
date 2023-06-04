@@ -1,7 +1,7 @@
 .conteiner {
   font-size: 24px;
   margin: 100px;
-  position: absolute;
+  position: relative;
 }
 
 
@@ -31,6 +31,6 @@
   border-radius: 50%;
   display: inline-block;
   position: absolute;
-  right: 80px;
+  left: 280px;
   
 }
