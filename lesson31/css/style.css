@@ -1,36 +1,31 @@
 .conteiner {
   font-size: 24px;
-  margin: 100px;
+  margin: 300px;
   position: relative;
 }
 
 
 .title {
   margin: 100px;
-  display: flex;
-  align-items: center;
+}
+
+
+:before,:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
 }
 
 .title::before {
-  content: "";
   background-color: rgb(8, 8, 216);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
+  top: 8px;
   left: 80px;
-
 }
 
 .title::after {
-  content: "";
-  width: 10px;
-  height: 10px;
   background-color: rgb(235, 45, 45);
-  border-radius: 50%;
-  display: inline-block;
-  position: absolute;
-  left: 280px;
-  
+  top: 8px;
+  right: 650px;
 }
