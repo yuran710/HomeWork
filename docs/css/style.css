@@ -321,15 +321,18 @@ html, body {
   width: 316px;
   height: 232px;
   flex-shrink: 0;
+  transition: all .3s;
 }
 
 .offer__list-item:hover {
   background: var(--primary, #FF6433);
   color: #FFF;
+  transition: all .3s;
 }
 
 .offer__list-item:hover svg path {
   fill: #FFF;
+  transition: all .3s;
 }
 .offer__icon {
   display: inline-block;
