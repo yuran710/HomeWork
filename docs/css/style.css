@@ -323,18 +323,20 @@ html, body {
   flex-shrink: 0;
 }
 
-
-img {
-  padding-top: 70px;
-}
-
-.link {
+.offer__list-item:hover {
+  background: var(--primary, #FF6433);
   color: #FFF;
 }
 
-.item {
-  background: var(--primary, #FF6433);
+.offer__list-item:hover svg path {
+  fill: #FFF;
 }
+.offer__icon {
+  display: inline-block;
+  text-align: center;
+  margin-top: 70px;
+}
+
 
 .list__link {
   font-size: 24px;
@@ -343,6 +345,7 @@ img {
 
 }
 
+
 .offer__link-btn {
   display: flex;
   font-size: 18px;
@@ -350,10 +353,12 @@ img {
   margin-left: 80%;
   transition: all .3s;
 }
-.offer__link-btn:hover  {
-color: #FF3F3A;
-transition: all .3s;
+
+.offer__link-btn:hover {
+  color: #FF3F3A;
+  transition: all .3s;
 }
+
 .offer__link-btn::after {
   content: "";
   display: block;
@@ -362,3 +367,6 @@ transition: all .3s;
   background: url("../images/icon/arrow.svg") 0 10px / 100% no-repeat;
   margin-left: 16px;
 }
+
+/* =========================================================== */
+/* =========================================================== */
