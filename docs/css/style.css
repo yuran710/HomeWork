@@ -20,6 +20,10 @@ html, body {
   padding: 128px 0 192px;
 }
 
+.main__blog {
+  padding-bottom: 131px;
+}
+
 .button {
   display: inline-block;
   font-size: 18px;
@@ -28,7 +32,6 @@ html, body {
   padding: 16px 40px;
   background: #FF6433;
   border-radius: 12px;
-
 }
 
 .button:hover {
@@ -44,15 +47,17 @@ html, body {
   line-height: 36px;
   letter-spacing: -3%;
   margin-bottom: 8px;
+}
 
+.title {
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 76px;
+  letter-spacing: -1.74px;
 }
 
 .heading__title {
   display: inline-flex;
-  font-weight: 800;
-  font-size: 58px;
-  line-height: 76px;
-  letter-spacing: -1.74px;
   width: 858px;
   flex-direction: column;
   flex-shrink: 0;
@@ -67,7 +72,6 @@ html, body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
 
 .header__top {}
@@ -83,9 +87,6 @@ html, body {
   margin-left: auto;
 }
 
-
-
-
 .header__nav-list {
 
   display: flex;
@@ -94,7 +95,6 @@ html, body {
 .header__nav-item {
   margin-left: 40px;
 }
-
 
 .header__nav-item:first-child {
   margin-left: 0;
@@ -115,8 +115,6 @@ html, body {
   margin-left: 64px;
   padding-left: 54px;
 }
-
-
 
 .header__line-btn::before {
   content: "";
@@ -182,7 +180,6 @@ html, body {
 
 .header__content {
   margin-right: 30px;
-
 }
 
 .header__title {
@@ -201,7 +198,6 @@ html, body {
 
 .header__body-button {
   margin-right: 32px;
-
 }
 
 .header__play-btn {
@@ -213,7 +209,6 @@ html, body {
 
 .header__play-btn svg {
   margin-right: 8px;
-
 }
 
 .header__play-btn svg:hover {
@@ -241,27 +236,23 @@ html, body {
   display: block;
 }
 
-.header__reating {
+.header__hero {
   position: relative;
-
 }
 
 .header__hr {
   position: absolute;
   display: flex;
   top: 81px;
-  left: 15px;
+  left: -35px;
   align-items: center;
-  padding: 15px 15px;
+  padding: 3px 25px 5px 1px;
   line-height: 32px;
   font-size: 24px;
-  background: #FFFFFF;
+  border: 12px solid #FFF;
+  background: linear-gradient(174deg, #FFF 0%, #FFF 100%);
   border-radius: 59px;
-}
-
-.shadow {
-  box-shadow: 0 0px 0 15px rgba(255, 255, 255, 0.3);
-
+  box-shadow: 0px 0px 0px 14px rgba(228, 226, 235, 0.5);
 }
 
 .header__hr svg {
@@ -269,13 +260,15 @@ html, body {
   line-height: 36px;
 }
 
-.header__rateYo {
+.header__reting {
   position: absolute;
   bottom: 70px;
-  right: 15px;
-  background: #FFFFFF;
+  right: -20px;
   padding: 20px 20px;
   border-radius: 59px;
+  border: 12px solid #FFF;
+  background: linear-gradient(174deg, #FFF 0%, #FFF 100%);
+  box-shadow: 0px 0px 0px 14px rgba(228, 226, 235, 0.5);
 }
 
 .header__open {
@@ -334,6 +327,7 @@ html, body {
   fill: #FFF;
   transition: all .3s;
 }
+
 .offer__icon {
   display: inline-block;
   text-align: center;
@@ -345,7 +339,6 @@ html, body {
   font-size: 24px;
   line-height: 50px;
   letter-spacing: -0.72px;
-
 }
 
 
@@ -373,3 +366,74 @@ html, body {
 
 /* =========================================================== */
 /* =========================================================== */
+
+
+
+.blog__heading {
+  margin-bottom: 47px;
+}
+
+.blog__title {
+  margin-top: 131px;
+}
+
+
+.button__content {
+  display: flex;
+  margin-bottom: 46px;
+}
+
+.blog__button {
+  margin-right: 30px;
+}
+
+.blog__button-btn {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.96px;
+}
+
+.blog__button:last-child {
+  margin-right: 0px;
+}
+
+.blog__list {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(3, 1fr);
+  gap: 64px 32px;
+}
+
+
+.blog__image-box {
+  margin-bottom: 24px;
+}
+
+.blog__link-content {}
+
+.blog__link-tag {
+  color: var(--grey, #939191);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.blog__link-text {
+  width: 405px;
+  flex-direction: column;
+  flex-shrink: 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.96px;
+  margin-bottom: 16px;
+}
+
+.blog__link-btn {
+  width: 405px;
+  flex-direction: column;
+  flex-shrink: 0;
+  line-height: 28px;
+  color: var(--black, #232536);
+}

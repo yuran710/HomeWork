@@ -1,5 +1,5 @@
 $(function () {
-  $(".header__rateYo").rateYo({
+  $(".header__reting").rateYo({
     
   });
  
