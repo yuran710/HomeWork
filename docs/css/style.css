@@ -12,7 +12,7 @@ html, body {
   overflow: hidden;
 }
 
-.conteiner {
+.container {
   max-width: 1310px;
   padding: 0 15px;
   margin: 0 auto;
@@ -37,6 +37,14 @@ html, body {
   padding-bottom: 180px;
 }
 
+.main__service {
+  padding-bottom: 48px;
+}
+
+.main__brands {
+  padding-bottom: 83px;
+}
+
 .button {
   display: inline-block;
   font-size: 18px;
@@ -49,6 +57,7 @@ html, body {
 
 .button:hover {
   transform: scale(1.05);
+  transition: all .3s;
 }
 
 .heading {
@@ -74,6 +83,10 @@ html, body {
   width: 858px;
   flex-direction: column;
   flex-shrink: 0;
+}
+
+.heading--text-center {
+  text-align: center;
 }
 
 .follow__heading {
@@ -419,6 +432,7 @@ html, body {
 
 .blog__filter-btn--active {
   color: #FF3F3A;
+  transition: all .3s;
 }
 
 .blog__list {
@@ -686,6 +700,7 @@ html, body {
 
 .customers__dots .slick-active button {
   background-color: #FF6433;
+  transition: all .3s;
 }
 
 .customers__dots button {
@@ -704,4 +719,104 @@ html, body {
 
 .slick-track {
   display: flex;
+}
+
+/* ============================SERVICE================================= */
+/* ============================SERVICE================================= */
+
+
+
+.service {
+  background: var(--light-grey, #F2F2F2);
+}
+
+.service__image-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.service__image-inner img {}
+
+.service__image-box {}
+
+.service__heading {
+  position: absolute;
+
+}
+
+.service__container-title {
+  margin-right: 35rem;
+  padding: 128px 80px;
+  width: 729px;
+  height: 502px;
+  background-color: #FF6433;
+}
+
+.service__title {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -1.44px;
+}
+
+.service__button {
+  background-color: #1E1B1B;
+  margin-top: 48px;
+}
+
+.service__button:hover {
+  transform: scale(1.05);
+  transition: all .3s;
+}
+
+.service__row {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.service__paragraf {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 36px;
+  letter-spacing: -0.72px;
+  opacity: 0.699999988079071;
+}
+
+.service__row-item span {
+  color: var(--secondary, #661CE7);
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 76px;
+  letter-spacing: -1.74px
+}
+
+/* ============================BRANDS==================================== */
+/* ============================BRANDS==================================== */
+
+
+
+.brands {
+  background: #E2E6E9;
+}
+
+.brands__heading {
+  padding-top: 128px;
+  margin-bottom: 32px;
+}
+
+.brands__grid {
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(5, 1fr);
+  gap: 40px;
+}
+
+.brands__grid-item {
+  display: block;
+}
+
+.brands__grid-link {
+  display: block;
 }
