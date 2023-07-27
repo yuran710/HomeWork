@@ -60,6 +60,16 @@ html, body {
   padding-bottom: 448px;
 }
 
+.footer__top {
+  padding-bottom: 129px;
+  opacity: 0.9800000190734863;
+  background: var(--black, #1E1B1B);
+}
+
+.footer__bottom {
+  background: var(--black, #1E1B1B);
+}
+
 .button {
   display: inline-block;
   font-size: 18px;
@@ -132,7 +142,6 @@ html, body {
 }
 
 .header__nav-list {
-
   display: flex;
 }
 
@@ -1139,7 +1148,7 @@ html, body {
 }
 
 .experts__info-add {
-display: block;
+  display: block;
 }
 
 /* ========================MAP================================== */
@@ -1171,6 +1180,112 @@ display: block;
 [class*="copyrights-pane"] {
   display: none !important;
 }
+
 [class*="ground-pane"] {
   filter: grayscale(1);
+}
+
+/* ========================FOOTER======================================= */
+/* ========================FOOTER======================================= */
+
+
+.footer__top-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social-inner {
+  margin-top: 128px;
+}
+
+.footer__heading {
+  color: #FFF;
+  width: 463px;
+  height: 134px;
+  flex-shrink: 0;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: -1.44px;
+  margin-bottom: 64px;
+}
+
+
+.footer__socials {
+  display: flex;
+}
+
+.footer__socials-item {
+  margin-right: 25px;
+}
+
+.footer__info-inner {
+  color: #FFF;
+  margin-top: 128px;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 36px;
+  letter-spacing: -0.72px;
+  margin-right: 150px;
+}
+
+.footer__info-inner span {
+  display: block;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  opacity: 0.6000000238418579;
+}
+
+.footer__info-address {
+  margin-bottom: 32px;
+}
+
+.footer__bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px 0;
+}
+
+.footer__logo {
+
+}
+.footer__logo:hover {
+transform: scale(1.1);
+transition: all .3s;
+}
+
+.footer__nav-list {
+  display: flex;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.footer__nav-item {
+  margin-right: 39px;
+}
+
+.footer__nav-item:last-child {
+  margin-right: 0px;
+}
+
+.footer__nav-link {
+white-space: nowrap;
+}
+
+.footer__nav-link:hover {
+color: #FF3F3A;
+transition: all .3s;
+}
+
+.footer__email {
+  color: var(--grey, #939191);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 28px;
 }
