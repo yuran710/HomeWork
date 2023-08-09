@@ -1125,6 +1125,7 @@ html, body {
   padding-top: 121px;
   margin-bottom: 48px;
 }
+
 .experts__title {
   font-size: 64px;
   max-width: 504px;
@@ -1133,6 +1134,7 @@ html, body {
   line-height: 150%;
   letter-spacing: -1.92px;
 }
+
 .experts__inner {
   display: flex;
   align-items: center;
@@ -1267,6 +1269,7 @@ html, body {
   line-height: 140%;
   letter-spacing: -1.44px;
 }
+
 .footer__socials {
   display: flex;
 }
@@ -1361,11 +1364,11 @@ html, body {
   .footer__top-inner {
     flex-direction: column;
   }
+
   .footer__top-inner {
     align-items: center;
   }
-  .footer__title {
-  }
+
   .footer__info-inner {
     margin: 0;
   }
@@ -1422,9 +1425,6 @@ html, body {
 
   /* ------------------------------------------------------------------ */
 
-  .map__wrapper {
-   
-  }
 
 }
 
@@ -1471,6 +1471,10 @@ html, body {
   .experts__inner {
     flex-direction: column;
     align-items: start;
+  }
+
+  .experts__heading {
+    padding-top: 20px;
   }
 }
 
@@ -1659,6 +1663,11 @@ html, body {
   }
 
   /* ---------------------------------------------- */
+
+  .main__follow {
+    padding-bottom: 20px;
+  }
+
   .follow__inner {
     flex-direction: column;
     margin-top: 20px;
@@ -1751,6 +1760,10 @@ html, body {
 
   /* -------------------------------------------------------------- */
 
+  .main__blog {
+    padding-bottom: 20px;
+  }
+
   .blog__title {
     margin-top: 20px;
     font-size: 52px;
@@ -1782,6 +1795,9 @@ html, body {
   }
 
   /* ---------------------------------- */
+  .main__customers {
+    padding-bottom: 20px;
+  }
 
   .customers__heading {
     margin-bottom: 40px;
@@ -1793,7 +1809,24 @@ html, body {
     margin-top: 20px;
   }
 
-  /* -------------------------------------- */
+  /* -------------------------------------------- */
+
+.main__questions {
+  padding: 20px 0;
+}
+.questions__heading {
+  margin: 20px 0 40px;
+
+}
+.heading--text-center {
+  padding: 0;
+}
+  /* ------------------------------------------ */
+
+  .posts__heading {
+    margin-top: 20px;
+  }
+
   .posts__title {
     font-size: 28px;
   }
@@ -1803,30 +1836,63 @@ html, body {
     align-items: center;
     flex-direction: column;
   }
-/* ---------------------------------------- */
 
-.experts__title {
-  font-size: 48px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.experts__inner {
-  align-items: center;
-}
-.experts__info {
-    margin-top: 30px;
+  .main__posts {
+    padding-bottom: 20px;
   }
 
+  /* ---------------------------------------- */
+.main__experts {
+  padding-bottom: 20px;
+}
+  .experts__title {
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .experts__inner {
+    align-items: center;
+  }
+
+  .experts__info {
+    margin: 30px 0 0 0;
+  }
+.experts__info-address {
+  margin: 0;
+}
   /* ------------------------------------------ */
-
-  .footer__bottom-inner {
-    flex-direction: column;
-  }
-.footer__logo{
-  margin-right: 50px;
-  margin-bottom: 20px;
+.map__wrapper {
+  margin-bottom: 0;
 }
+.map__image-box {
+  display: none;
+}
+
+/* -------------------------------------------- */
+
+.footer__social-inner {
+  margin-top: 20px;
+}
+
+.footer__top {
+  padding-bottom: 20px;
+}
+.footer__heading {
+  margin-bottom: 40px;
+}
+.footer__info-address {
+  margin-bottom: 0;
+}
+.footer__bottom-inner {
+  flex-direction: column;
+padding: 20px 0;
+}
+  .footer__logo {
+    margin-right: 50px;
+    margin-bottom: 20px;
+  }
+
   .footer__nav-list {
     flex-direction: column;
   }
@@ -1874,7 +1940,7 @@ html, body {
 
   /* -------------------------------------------- */
 
-  
+
 }
 
 /* -----------------------------570------------------------------------------ */
@@ -1926,6 +1992,7 @@ html, body {
   .experts__info {
     font-size: 18px;
   }
+
 }
 
 /* ===============================450=================================== */
@@ -1998,7 +2065,8 @@ html, body {
   .questions__acc-text {
     padding: 0 10px 10px 10px;
   }
-/* ---------------------------------------------------- */
+
+  /* ---------------------------------------------------- */
 
 
 
